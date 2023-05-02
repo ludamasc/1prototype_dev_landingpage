@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+
+ }
+
+ .main{
+     width: 100%;  
+     background-image: url(computerfundo.jpg.jpg);
+     background-position: center;
+     background-size: cover;
+     min-height: 100vh ;
+ }
+
+ .navbar{
+    display: flex;
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+ }
+
+
+
+
+ .logo{
+    color: #F4D844;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    padding-top: 15px;
+ }
+
+ .menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+ }
+
+ ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+ }
+
+ ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+ }
+
+ ul li a:hover{
+    color:#F4D844
+ }
+
+ .search{
+    width: 330px;
+    margin-left: auto;
+ }
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #F4D844;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #F4D844;
+    border: 2px solid #F4D844;
+    margin-top: 13px;
+    color: #38618C;
+    font-size: 21px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+padding-bottom: 25px;
+font-family: Arial;
+letter-spacing: 1.2px;
+line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #F4D844;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #38618C;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+    
+}
+
+.content span{
+    color: #F4D844;
+    font-size: 68px;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(43, 30, 30, 0.8)50%, rgba(43,30,30,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #38618C;
+    font-size: 22px;
+    background-color: #F4D844;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #F4D844;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #F4D844;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+transition: 0.3s ease;
+}
+
+.btnn:hover{
+    background: #fff;
+    color: #F4D844;
+}
+
+    .btnn a{
+        text-decoration: none;
+        color: #38618C;
+        font-weight: bold;
+    }
+    .form .link{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .form .link a{
+        text-decoration: none;
+        color: #F4D844; 
+    }
+
+   .liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+   } 
+
+ .icon a{
+    text-decoration: none;
+    color:#fff;
+ }
+   .icon ion-icon{
+    color: #F4D844;
+    font-size: 25px;   
+    padding-top: 5px;
+   text-align: center;
+   transition: 0.3s ease; 
+
+   }
+
+   .icon ion-icon:hover{
+    color: #38618C;
+   }
+
+.icon{
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+    width: 100%;
+}
